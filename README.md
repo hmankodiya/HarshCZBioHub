@@ -52,8 +52,10 @@ It should look like this:
 ```
 .
 ├── build/
-├── dataset1/        # ✅ Place here
-├── dataset2/        # ✅ Place here
+├── dataset1/                       # ✅ Place here
+    |──Kazansky_MMStack.ome.tif
+├── dataset2/                       # ✅ Place here
+    |──20241107_infection.zarr
 ├── iohub/
 ├── iohub_wrapper/
 ├── outputs/
