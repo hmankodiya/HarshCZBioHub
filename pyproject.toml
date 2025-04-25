@@ -1,0 +1,23 @@
+[project]
+name = "iohub-wrapper"
+version = "0.1.0"
+description = "CLI wrapper for image segmentation and metadata inspection using iohub"
+authors = [
+    { name = "Harsh Mankodiya", email = "hmankodi@asu.edu" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "imageio[ffmpeg]",
+    "scikit-image",
+    "scipy",
+    "tqdm",
+    "ipykernel",
+    "iohub @ git+https://github.com/czbiohub-sf/iohub.git"
+]
+
+[project.scripts]
+iohub-cli = "iohub_wrapper.cli:main"
