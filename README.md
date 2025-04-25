@@ -43,6 +43,34 @@ After completing the installation, you can directly generate results by running:
 bash ./run_tests.sh
 ```
 
+
+### ⚠️ Important:
+
+Before running `run_tests.sh`, make sure your project folder structure includes the `dataset1/` and `dataset2/` directories placed **at the root level** of the repository.  
+It should look like this:
+
+```
+.
+├── build/
+├── dataset1/        # ✅ Place here
+├── dataset2/        # ✅ Place here
+├── iohub/
+├── iohub_wrapper/
+├── outputs/
+├── pyproject.toml
+├── README.md
+├── results/
+├── run_tests.sh
+├── setup.cfg
+├── task1/
+└── task2/
+```
+
+Otherwise, the script will not be able to locate the datasets and will fail.
+
+---
+
+
 This script will automatically:
 
 - Inspect and extract metadata from the OME-Zarr datasets.

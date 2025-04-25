@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# Check if required datasets exist
+if [ ! -d "dataset1" ] || [ ! -d "dataset2" ]; then
+    echo "❌ Error: 'dataset1/' and/or 'dataset2/' folder not found at the project root."
+    echo "Please make sure both 'dataset1/' and 'dataset2/' are present before running this script."
+    exit 1
+fi
+
+echo "✅ Found dataset1/ and dataset2/. Proceeding..."
+
 # Create results folder if not exists
 mkdir -p results/frames
 mkdir -p results/subset_frames
