@@ -100,6 +100,15 @@ If everything runs successfully, you will find:
 
 ---
 
+
+## 📂 Result Files
+
+All generated result files (metadata JSONs, segmentation outputs, videos, etc.) can be accessed here:
+
+**[Access Result Files](https://drive.google.com/drive/folders/1pwbkoo8xbDbC-aNovJ_J4JwaB2RIS2IJ?usp=sharing)**
+
+---
+
 # 📌 Notes
 
 - **Individual task results** (for **Task 1** and **Task 2**) can be found inside the `task1/` and `task2/` folders.
