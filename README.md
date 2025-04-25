@@ -55,10 +55,6 @@ If everything runs successfully, you will find:
 - Pretty-printed metadata in the console
 - Ready-to-use inputs for the segmentation and infection analysis pipeline.
 
-Perfect — I see exactly what you want:  
-You want the README to **explain important folders** briefly after the setup, mentioning that **individual task results** are inside `task1/` and `task2/`, and also describing things like `iohub_wrapper/`, `results/`, etc.
-
-Here’s the **full cleaned-up version** of your README based on everything you just said:
 
 ---
 
