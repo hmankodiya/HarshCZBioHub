@@ -87,13 +87,13 @@ Here’s the **full cleaned-up version** of your README based on everything you 
 # ✅ Final Deliverables Checklist
 
 
-## 📂 Task 1
+## 📂 Task 1 (iohub_wrapper/inspect_zarr.py)
 
 - Human-readable output with the OME-Zarr metadata
 
 ---
 
-## 📂 Task 2
+## 📂 Task 2 (iohub_wrapper/infection_pipeline.py)
 
 - Script to demo your Python API
 - Valid OME-Zarr store with the segmentations
@@ -101,7 +101,7 @@ Here’s the **full cleaned-up version** of your README based on everything you 
 - Infection detection
 ---
 
-## 📂 Task 3
+## 📂 Task 3 (iohub_wrapper/cli.py)
 - Implement a command line interface (CLI) on top of this to interact with image
 management and analysis API.
 
