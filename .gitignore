@@ -1,3 +1,12 @@
+#
+
+build/
+dataset1/
+dataset2/
+iohub/
+results/
+outputs/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
