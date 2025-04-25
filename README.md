@@ -107,6 +107,7 @@ management and analysis API.
 
 ---
 
-✨ Acknowledgment
+# ✨ Acknowledgment
+
 Some parts of code formatting, README development, and code prettification were assisted using ChatGPT.
 
